@@ -3,16 +3,16 @@ package com.example.demo.functions;
 import com.example.demo.service.CustomerService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.AutoConfigureOrder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
 
 import java.util.Locale;
 import java.util.function.Function;
 import java.util.function.Supplier;
 
 @Slf4j
-@Configuration
+@Component
 public class Functions {
 
     @Autowired
